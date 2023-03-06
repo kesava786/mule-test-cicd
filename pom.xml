@@ -29,6 +29,30 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>${app.runtime}</muleVersion>
+						<username>kesava5021</username>
+						<password>Hellosathvik@143</password>
+						<applicationName>mule-test-cicd</applicationName>
+						<environment>Sandbox</environment>
+						<workerType>MICRO</workerType>
+						<workers>1</workers>
+						<region>us-east-1</region>
+						<objectStoreV2>true</objectStoreV2>
+						<!-- <artifact>${artifactPath}/${project.name}-${project.version}-${project.packaging}.jar</artifact> -->
+						<!-- <applyLatestRuntimePatch>${applyLatestRuntimePatch}</applyLatestRuntimePatch> -->
+						<!-- <properties>
+							<mule.env>${cloudhub.mule.env}</mule.env>
+							<mule.encryptionKey>${cloudhub.mule.encryptionKey}</mule.encryptionKey>
+							<anypoint.platform.client_id>${cloudhub.anypoint.platform.client_id}</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>${cloudhub.anypoint.platform.client_secret}</anypoint.platform.client_secret>
+							<anypoint.platform.config.analytics.agent.enabled>${cloudhub.monitoring}</anypoint.platform.config.analytics.agent.enabled>
+						</properties> -->
+					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
