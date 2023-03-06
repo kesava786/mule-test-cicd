@@ -39,7 +39,7 @@
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
 						<workers>1</workers>
-						<region>us-east-1</region>
+						<region>us-east-2</region>
 						<objectStoreV2>true</objectStoreV2>
 						<businessGroup>Thimma</businessGroup>
 						<!-- <artifact>${artifactPath}/${project.name}-${project.version}-${project.packaging}.jar</artifact> -->
