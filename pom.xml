@@ -41,6 +41,7 @@
 						<workers>1</workers>
 						<region>us-east-1</region>
 						<objectStoreV2>true</objectStoreV2>
+						<businessGroup>Thimma</businessGroup>
 						<!-- <artifact>${artifactPath}/${project.name}-${project.version}-${project.packaging}.jar</artifact> -->
 						<!-- <applyLatestRuntimePatch>${applyLatestRuntimePatch}</applyLatestRuntimePatch> -->
 						<!-- <properties>
