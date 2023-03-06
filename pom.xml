@@ -36,7 +36,7 @@
 						<username>thimma789</username>
 						<password>Thimma789</password>
 						<applicationName>mule-test-cicd</applicationName>
-						<environment>Sandbox</environment>
+						<environment>sandbox</environment>
 						<workerType>MICRO</workerType>
 						<workers>1</workers>
 						<region>us-east-2</region>
